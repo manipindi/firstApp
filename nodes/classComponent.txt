@@ -1,0 +1,14 @@
+import React from "react";
+import { Fragment } from "react/cjs/react.production.min";
+
+class Employee extends React.Component{
+    render(){
+        return(
+            <Fragment>
+                <h2>Welcome to Employee Component</h2>
+            </Fragment>
+        );
+    }
+}
+
+export default Employee;
